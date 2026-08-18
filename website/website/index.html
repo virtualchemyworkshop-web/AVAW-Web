@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AVAW — A Virtual Alchemy Workshop</title>
+<meta name="description" content="Preproduction services for film, games and virtual production: storyboard, previs level design in Unreal Engine, animatics/techvis, and ICVFX Stagecraft design assistance.">
+<link rel="icon" href="images/avaw-logo-header.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <a class="wordmark" href="#top">
+    <img class="wordmark-logo" src="images/avaw-logo-header.png" alt="AVAW — A Virtual Alchemy Workshop">
+  </a>
+
+  <nav class="site-nav">
+    <a href="#work" data-i18n="nav.work">Work</a>
+    <a href="#services" data-i18n="nav.services">Services</a>
+    <a href="#process" data-i18n="nav.process">Process</a>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
+  </nav>
+
+  <div class="lang-switch">
+    <button class="lang-current mono" id="langButton" aria-haspopup="listbox" aria-expanded="false">
+      <span id="langButtonLabel">EN</span>
+      <svg width="9" height="6" viewBox="0 0 9 6" fill="none"><path d="M1 1L4.5 5L8 1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <ul class="lang-menu mono" id="langMenu" role="listbox">
+      <li role="option" data-lang="en">English <span class="lang-native">EN</span></li>
+      <li role="option" data-lang="es">Español <span class="lang-native">ES</span></li>
+      <li role="option" data-lang="de">Deutsch <span class="lang-native">DE</span></li>
+      <li role="option" data-lang="fr">Français <span class="lang-native">FR</span></li>
+      <li role="option" data-lang="ko">한국어 <span class="lang-native">KO</span></li>
+      <li role="option" data-lang="ja">日本語 <span class="lang-native">JA</span></li>
+    </ul>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-frame">
+    <div class="hero-img hero-img-a" style="background-image:url('images/hero-01.jpg')"></div>
+    <div class="hero-img hero-img-b" style="background-image:url('images/hero-02.jpg')"></div>
+    <div class="hero-scrim"></div>
+  </div>
+
+  <div class="viewfinder" aria-hidden="true">
+    <span class="vf-corner vf-tl"></span>
+    <span class="vf-corner vf-tr"></span>
+    <span class="vf-corner vf-bl"></span>
+    <span class="vf-corner vf-br"></span>
+    <span class="vf-readout mono vf-readout-tl">REC <span id="recClock">00:00:00:00</span></span>
+    <span class="vf-readout mono vf-readout-tr" id="stageLabel">CALIBRATION</span>
+  </div>
+
+  <div class="hero-content">
+    <p class="eyebrow mono" data-i18n="hero.eyebrow">PREPRODUCTION · STORYBOARD · VIRTUAL PRODUCTION</p>
+    <h1 class="hero-title" data-i18n="hero.title">Building the world<br>before the camera does.</h1>
+    <p class="hero-sub" data-i18n="hero.sub">Storyboard, previs level design in Unreal Engine, and animatics or techvis — plus ICVFX Stagecraft design assistance for LED-volume productions.</p>
+    <a href="#work" class="scroll-cue">
+      <span class="mono" data-i18n="hero.cta">VIEW THE WORK</span>
+      <span class="scroll-line"></span>
+    </a>
+  </div>
+</section>
+
+<!-- ============ STATEMENT ============ -->
+<section class="statement">
+  <p class="statement-eyebrow mono" data-i18n="statement.eyebrow">01 — WHAT WE DO</p>
+  <h2 data-i18n="statement.title">A preproduction workshop.</h2>
+  <p class="statement-body" data-i18n="statement.body">We work the stage before the camera rolls: storyboards that plan a shoot shot by shot, previs environments built in Unreal Engine, and animatics or techvis as the final deliverable. We're glad to stay involved as coordinators through the later stages of a production, but the content we build stays in preproduction — we don't produce on-set or post work ourselves.</p>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="services" id="services">
+  <div class="section-head">
+    <p class="section-eyebrow mono" data-i18n="services.eyebrow">02 — SERVICES</p>
+    <h2 data-i18n="services.title">Three disciplines, one preproduction.</h2>
+  </div>
+
+  <div class="service-grid">
+
+    <article class="service-card frame">
+      <p class="service-tag mono">SEQUENCE · STORYBOARD</p>
+      <h3 data-i18n="services.card1.title">Storyboard</h3>
+      <p data-i18n="services.card1.body">Sequential visual storytelling for film, games and previs. Shot composition, continuity and camera language, carried from rough thumbnail through to animatic-ready boards.</p>
+    </article>
+
+    <article class="service-card frame">
+      <p class="service-tag mono">UE · PREVIS &amp; LEVEL DESIGN</p>
+      <h3 data-i18n="services.card2.title">Previs Level Design — Unreal Engine</h3>
+      <p data-i18n="services.card2.body">Blockout and previs environments built in Unreal Engine: layout, blocking, lighting studies and camera blocking, taken through to animatics or techvis-ready scenes.</p>
+    </article>
+
+    <article class="service-card frame">
+      <p class="service-tag mono">ICVFX · STAGECRAFT DESIGN</p>
+      <h3 data-i18n="services.card3.title">ICVFX Stagecraft Design Assistance</h3>
+      <p data-i18n="services.card3.body">Support through the creation and design process of a Stagecraft setup: layout planning, camera and content placement, and recommendations on LED panel technology — brand and type — suited to the project.</p>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="process" id="process">
+  <div class="section-head">
+    <p class="section-eyebrow mono" data-i18n="process.eyebrow">03 — PROCESS</p>
+    <h2 data-i18n="process.title">Preproduction, start to finish.</h2>
+  </div>
+
+  <div class="pipeline">
+    <div class="pipeline-step">
+      <p class="pipeline-mark mono">STAGE 01</p>
+      <h4 data-i18n="process.step1.title">Concept &amp; script</h4>
+      <p data-i18n="process.step1.body">Framing the story and its visual language from the start.</p>
+    </div>
+    <div class="pipeline-step">
+      <p class="pipeline-mark mono">STAGE 02</p>
+      <h4 data-i18n="process.step2.title">Storyboard</h4>
+      <p data-i18n="process.step2.body">Shot-by-shot planning of composition, continuity and camera.</p>
+    </div>
+    <div class="pipeline-step">
+      <p class="pipeline-mark mono">STAGE 03</p>
+      <h4 data-i18n="process.step3.title">Previs</h4>
+      <p data-i18n="process.step3.body">Blocking the story in 3D in Unreal Engine.</p>
+    </div>
+    <div class="pipeline-step">
+      <p class="pipeline-mark mono">STAGE 04</p>
+      <h4 data-i18n="process.step4.title">Animatics / Techvis</h4>
+      <p data-i18n="process.step4.body">The final preproduction deliverable — timed, camera-accurate and shoot-ready.</p>
+    </div>
+    <div class="pipeline-step pipeline-step-coord">
+      <p class="pipeline-mark mono" data-i18n="process.step5.mark">COORDINATION ONLY</p>
+      <h4 data-i18n="process.step5.title">On set &amp; post</h4>
+      <p data-i18n="process.step5.body">Available to coordinate — no content production carried out at this stage.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WORK ============ -->
+<section class="work" id="work">
+  <div class="section-head">
+    <p class="section-eyebrow mono" data-i18n="work.eyebrow">04 — WORK</p>
+    <h2 data-i18n="work.title">Selected work.</h2>
+  </div>
+
+  <!-- Storyboard -->
+  <div class="work-group">
+    <p class="work-group-label mono" data-i18n="work.group.storyboard">STORYBOARD</p>
+    <div class="work-grid">
+      <figure class="work-item frame">
+        <img src="images/storyboard-01.jpg" alt="Storyboard panels — cave approach with torchlight" loading="lazy">
+        <figcaption><span data-i18n="work.sb1.title">Into the Dark — approach</span></figcaption>
+      </figure>
+      <figure class="work-item frame">
+        <img src="images/storyboard-02.jpg" alt="Storyboard panels — reveal and pursuit" loading="lazy">
+        <figcaption><span data-i18n="work.sb2.title">Into the Dark — reveal</span></figcaption>
+      </figure>
+      <figure class="work-item frame">
+        <img src="images/storyboard-03.jpg" alt="Storyboard panels — the sword" loading="lazy">
+        <figcaption><span data-i18n="work.sb3.title">Into the Dark — the sword</span></figcaption>
+      </figure>
+      <figure class="work-item frame">
+        <img src="images/storyboard-04.jpg" alt="Storyboard panel grid — scene one, chase through the city" loading="lazy">
+        <figcaption><span data-i18n="work.sb4.title">Sequence — scene 01</span></figcaption>
+      </figure>
+      <figure class="work-item frame">
+        <img src="images/storyboard-05.jpg" alt="Storyboard panel grid — scene two, rooftop pursuit" loading="lazy">
+        <figcaption><span data-i18n="work.sb5.title">Sequence — scene 02</span></figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <!-- Level Design / Environments -->
+  <div class="work-group">
+    <p class="work-group-label mono" data-i18n="work.group.leveldesign">PREVIS LEVEL DESIGN — UNREAL ENGINE</p>
+    <div class="work-grid">
+      <figure class="work-item frame wide">
+        <img src="images/env-office-full.jpg" alt="Unreal Engine interior environment, study with desk" loading="lazy">
+        <figcaption><span data-i18n="work.env1.title">Interior study — level dressing</span></figcaption>
+      </figure>
+      <figure class="work-item frame">
+        <img src="images/env-office-wide.jpg" alt="Unreal Engine interior environment, desk view" loading="lazy">
+        <figcaption><span data-i18n="work.env2.title">Interior study — desk composition</span></figcaption>
+      </figure>
+      <figure class="work-item frame">
+        <img src="images/env-props-table.jpg" alt="Unreal Engine prop set — table props" loading="lazy">
+        <figcaption><span data-i18n="work.env3.title">Prop set — table dressing</span></figcaption>
+      </figure>
+      <figure class="work-item frame">
+        <img src="images/env-bookshelf.jpg" alt="Unreal Engine interior environment, bookshelf and desk" loading="lazy">
+        <figcaption><span data-i18n="work.env4.title">Interior study — material study</span></figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <!-- Virtual Production / ICVFX -->
+  <div class="work-group">
+    <p class="work-group-label mono" data-i18n="work.group.vp">ICVFX &amp; STAGECRAFT DESIGN</p>
+    <div class="work-grid">
+      <figure class="work-item frame wide">
+        <img src="images/icvfx-layout-plan.jpg" alt="Axonometric ICVFX stagecraft layout plan with camera positions" loading="lazy">
+        <figcaption><span data-i18n="work.vp1.title">Stagecraft layout — camera &amp; coverage plan</span></figcaption>
+      </figure>
+      <figure class="work-item frame">
+        <img src="images/vp-stage-wide.jpg" alt="LED volume and green screen stage layout" loading="lazy">
+        <figcaption><span data-i18n="work.vp2.title">LED volume + green screen — stage layout</span></figcaption>
+      </figure>
+      <figure class="work-item frame">
+        <img src="images/mocap-performer.jpg" alt="Performer in motion capture suit on set" loading="lazy">
+        <figcaption><span data-i18n="work.vp3.title">Performance capture reference</span></figcaption>
+      </figure>
+      <figure class="work-item frame">
+        <img src="images/vfx-review.jpg" alt="Performance capture reviewed against creature VFX" loading="lazy">
+        <figcaption><span data-i18n="work.vp4.title">Capture-to-creature review</span></figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <!-- Pipeline & Production Management -->
+  <div class="work-group">
+    <p class="work-group-label mono" data-i18n="work.group.pipeline">PIPELINE &amp; SCHEDULING</p>
+    <div class="work-grid">
+      <figure class="work-item frame wide">
+        <img src="images/gantt-chart.jpg" alt="Production schedule Gantt chart for a short-film pipeline" loading="lazy">
+        <figcaption><span data-i18n="work.pipe1.title">Production schedule — preproduction pipeline Gantt</span></figcaption>
+      </figure>
+    </div>
+  </div>
+
+</section>
+
+<!-- ============ CONTACT ============ -->
+<footer class="contact" id="contact">
+  <p class="section-eyebrow mono" data-i18n="contact.eyebrow">05 — CONTACT</p>
+  <h2 data-i18n="contact.title">Let's build the shot.</h2>
+  <p class="contact-body" data-i18n="contact.body">Available for storyboard, previs level design and ICVFX Stagecraft design work — remote or on set.</p>
+
+  <div class="contact-actions">
+    <a class="btn btn-primary mono" href="mailto:virtualchemyworkshop@gmail.com">
+      <span data-i18n="contact.btn.hello">Say Hello</span>
+    </a>
+    <a class="btn btn-secondary mono" href="https://calendly.com/virtualalchemyworkshop" target="_blank" rel="noopener">
+      <span data-i18n="contact.btn.book">Book a Consultation</span>
+    </a>
+  </div>
+
+  <div class="footer-bottom">
+    <span class="mono" id="footerYear"></span>
+    <span class="mono" data-i18n="contact.footer">AVAW — A Virtual Alchemy Workshop</span>
+  </div>
+</footer>
+
+<script src="translations.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
