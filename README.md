@@ -17,7 +17,7 @@ Static site, ready for GitHub Pages. No build step.
 - **New storyboard samples** added to the Work → Storyboard group (two 6-panel sequences from an earlier project), alongside the existing "Into the Dark" set.
 - Header now gets a solid/blurred background once you scroll past the hero, so nav text stays legible over content sections.
 - The pipeline Gantt chart caption was softened to "organization & coordination sample" rather than "preproduction pipeline," since the chart image itself still shows postproduction rows — it's shown as a scheduling/coordination skill sample, not a claim that AVAW executes those stages.
-- Reference PDFs with "Desafío"/"HAZ_RTVE" in the filename were used only as background for service framing — nothing was quoted or reproduced from them.
+- Reference PDFs with "Desafío" in the filename were used only as background for service framing — nothing was quoted or reproduced from them.
 
 ## Still open
 - **Calendly link** is a placeholder — swap in the real link once the account is set up.
