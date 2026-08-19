@@ -66,8 +66,8 @@
   /* ---------------------------------------------------------------
      Language switching
   --------------------------------------------------------------- */
-  var SUPPORTED = ["en", "es", "de", "fr", "ko", "ja"];
-  var LABELS = { en: "EN", es: "ES", de: "DE", fr: "FR", ko: "KO", ja: "JA" };
+  var SUPPORTED = ["en", "es", "de", "fr", "ko", "ja", "zh"];
+  var LABELS = { en: "EN", es: "ES", de: "DE", fr: "FR", ko: "KO", ja: "JA", zh: "ZH" };
 
   function detectLanguage() {
     var stored = localStorage.getItem("db_lang");
