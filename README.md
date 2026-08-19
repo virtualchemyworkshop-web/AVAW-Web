@@ -1,4 +1,4 @@
-# AVAW — A Virtual Alchemy Workshop (Website v04)
+# AVAW — A Virtual Alchemy Workshop (Website v05)
 
 Static site, ready for GitHub Pages. No build step.
 
@@ -17,7 +17,10 @@ nested folder" at the bottom of this file.
 4. In the repo → **Settings → Pages** → set source to `main` / root.
 5. Site will be live at `https://<username>.github.io/<repo>/`.
 
-## What changed in this version (v04)
+## What changed in this version (v05)
+- **Browser tab fixed**: title shortened to just "A Virtual Alchemy Workshop" (dropped the "AVAW — " prefix), and the favicon is now a proper square icon (`images/favicon.png`) with the triangle mark kept at its true proportions instead of being squished to fill a square.
+
+## What changed in v04
 - **Header logo fixed for legibility**: the previous full logo image (triangles + subtitle baked in) shrank the "A VIRTUAL ALCHEMY WORKSHOP" text to unreadable size at header height. Now the header shows just the triangle icon (`images/avaw-icon.png`, cropped from your logo) at 36px, paired with the subtitle as real HTML text next to it — sharp at any size, and independently restyleable.
 - **Pipeline & Scheduling work sample replaced**: swapped the Gantt-chart image for your new preproduction-desk photo (storyboards, character sheets, a schedule corkboard, and 3D software open on two monitors), captioned "Preproduction desk — storyboard, concept art & schedule" across all 7 languages.
 
