@@ -1,4 +1,4 @@
-# AVAW — A Virtual Alchemy Workshop (Website v03)
+# AVAW — A Virtual Alchemy Workshop (Website v04)
 
 Static site, ready for GitHub Pages. No build step.
 
@@ -17,7 +17,11 @@ nested folder" at the bottom of this file.
 4. In the repo → **Settings → Pages** → set source to `main` / root.
 5. Site will be live at `https://<username>.github.io/<repo>/`.
 
-## What changed in this version (v03)
+## What changed in this version (v04)
+- **Header logo fixed for legibility**: the previous full logo image (triangles + subtitle baked in) shrank the "A VIRTUAL ALCHEMY WORKSHOP" text to unreadable size at header height. Now the header shows just the triangle icon (`images/avaw-icon.png`, cropped from your logo) at 36px, paired with the subtitle as real HTML text next to it — sharp at any size, and independently restyleable.
+- **Pipeline & Scheduling work sample replaced**: swapped the Gantt-chart image for your new preproduction-desk photo (storyboards, character sheets, a schedule corkboard, and 3D software open on two monitors), captioned "Preproduction desk — storyboard, concept art & schedule" across all 7 languages.
+
+## What changed in v03
 - **Logo** swapped for the new AVAW mark (alternating red/white triangles) and enlarged in the header (30px → 48px tall) so the "A VIRTUAL ALCHEMY WORKSHOP" subtitle reads clearly.
 - **Chinese (Simplified)** added as a 7th language (中文 / ZH) — same detection/switching behavior as the other six. Note: browsers reporting `zh-TW` or `zh-HK` will still get Simplified Chinese, since only one Chinese variant is built — flag it if Traditional Chinese is needed for those regions.
 - **Calendly link** updated to `https://calendly.com/avirtualchemyworkshop`.
